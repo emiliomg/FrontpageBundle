@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #333;
+	text-align: center;
+	height: 100%;
+}
+
+.center-wrapper {
+	text-align: center;
+	height: 100%;
+}
+
+.center-wrapper:before {
+	content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.center {
+	display: inline-block;
+  vertical-align: middle;
+  font-family: "Courier new";
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #E3E3E3;
+}
+
+.center .emphasis {
+	color: #FF9900;
+}

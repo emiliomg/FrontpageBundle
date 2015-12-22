@@ -1,0 +1,18 @@
+{
+    "name": "emiliomg/frontpage-bundle",
+    "authors": [
+        {
+            "name": "Emilio Markgraf",
+            "email": "emilio.markgraf@gmail.com"
+        }
+    ],
+    "require": {
+        "php":  ">=5.3",
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmilioMg\\FrontpageBundle\\": "."
+        }
+    }
+}
