@@ -1,5 +1,9 @@
 {
     "name": "emiliomg/frontpage-bundle",
+    "description": "Simple frontpage if your project needs no frontpage but a 404-page is just plain ugly.",
+    "keywords": ["frontpage", "simple"],
+    "type": "symfony-bundle",
+    "license": "MIT",
     "authors": [
         {
             "name": "Emilio Markgraf",
